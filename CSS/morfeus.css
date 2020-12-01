@@ -1,0 +1,160 @@
+body {
+ 
+
+   background-image: url("../../Картинки/1 морфеус/Слайд 1 ВЫБОР пилюли.png"); 
+   background-color: black;  
+   background-repeat: no-repeat; 
+   background-position: center center;
+   background-attachment: fixed;
+   background-size: cover; 
+  
+}
+
+/* для красной пилюли */
+.krasnoeo4koAKTIV {
+  background-image: url("../../Картинки/1 морфеус/Красная пилюля Левое Очько 201на261пиксель.png"); 
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 189px;
+  background-color: black; 
+  position: fixed; /**/
+  left: 286px; /**/
+  top: 64px; /**/
+  transform: scale(1.066);  
+  border: none;
+  border-radius: 100px/90px;
+  opacity: 0.0; /**/
+}
+.krasnoeo4koAKTIV:hover {
+  opacity: 0.99; 
+}
+
+
+.krasnoeo4koPASSIV {
+  background-image: url("../../Картинки/1 морфеус/Красная пилюля Правое Очько 184на228пиксель.png");
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  width: 227px;
+  height: 182px;
+  background-color: #000000; 
+  position: fixed; /**/
+  left: 651px; /**/
+  top: 58px; /**/
+  transform: scale(1.065); 
+  border: none;
+  border-radius: 100px/90px;
+  opacity: 0.0; /**/
+}
+.krasnoeo4koPASSIV:hover {
+  opacity: 0.99; /**/
+}
+
+
+
+
+
+
+
+/* анимация рта */
+.rot {
+  background-image: url("../../Картинки/1 морфеус/Рот приоткрыт153на275пиксель.png"); 
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  width: 275px;
+  height: 152px;
+  background-color: #1b80a8; 
+  position: fixed; /**/
+  left: 471px; /**/
+  top: 458px; /**/
+  transform: scale(1.065); */
+  border: 2px solid double;
+  border-radius: 100px/90px;
+  opacity: 0.0; /**/
+}
+.rot:hover {
+  opacity: 0.99; 
+}
+
+
+
+
+/*синяя пилюля*/
+.sineeo4koAKTIV { 
+  background-image: url("../../Картинки/1 морфеус/Синяя пилюля Правое Очько 180на229пикселя.png");
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  width: 227px;
+  height: 180px;
+  background-color: #000000; 
+  position: fixed; /**/
+  left: 649px; /**/
+  top: 60px; /**/
+  transform: scale(1.065); 
+  border: none;
+  border-radius: 100px;
+  opacity: 0.0; /**/
+}
+.sineeo4koAKTIV:hover {
+  opacity: 0.99; 
+}
+
+.sineeo4koPASSIV {
+  background-image: url("../../Картинки/1 морфеус/Синяя пилюля Левое Очько 191на254пикселя.png"); 
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 189px;
+  background-color: #a81b1b; 
+  position: fixed; /**/
+  left: 278px; /**/
+  top: 73px; /**/
+  transform: scale(1.066);  */
+  border: none;
+  border-radius: 100px/90px;
+  opacity: 0.0; /**/
+}
+.sineeo4koPASSIV:hover {
+  opacity: 0.99; 
+}
+
+
+/* анимация команднойм строки */
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: left;
+  margin-top: 0px;
+}
+
+.title{
+  width: 21ch;
+  overflow: hidden;
+  color: rgb(8, 71, 29);
+  font-size: 20px;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid orange;
+  animation: printed-text 5s steps(21),
+             flashin-border .75s step-start infinite;
+}
+
+@keyframes flashin-border{
+  0%{
+    border-color: rgb(44, 117, 11);
+  }
+  50%{
+    border-color: transparent;
+  }
+  100%{
+    border-color: rgb(14, 114, 14);
+  }
+}
+
+@keyframes printed-text{
+  from {
+    width: 0%;
+  }
+}
+ 
