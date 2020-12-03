@@ -1,7 +1,7 @@
 body {
  
 
-   background-image: url("../../Картинки/1 морфеус/Слайд 1 ВЫБОР пилюли.png"); 
+   background-image: url("../img/Слайд 1 ВЫБОР пилюли.png"); 
    background-color: black;  
    background-repeat: no-repeat; 
    background-position: center center;
@@ -32,7 +32,7 @@ body {
 
 
 .krasnoeo4koPASSIV {
-  background-image: url("../../Картинки/1 морфеус/Красная пилюля Правое Очько 184на228пиксель.png");
+  background-image: url("./img/Красная пилюля Правое Очько 184на228пиксель.png");
   background-origin: content-box;
   background-repeat: no-repeat;
   width: 227px;
@@ -58,19 +58,19 @@ body {
 
 /* анимация рта */
 .rot {
-  background-image: url("../../Картинки/1 морфеус/Рот приоткрыт153на275пиксель.png"); 
+  background-image: url("./img/1 морфеус/Рот приоткрыт153на275пиксель.png");   
   background-origin: content-box;
   background-repeat: no-repeat;
   width: 275px;
-  height: 152px;
-  background-color: #1b80a8; 
-  position: fixed; /**/
-  left: 471px; /**/
-  top: 458px; /**/
-  transform: scale(1.065); */
+  height: 152px; 
+  background-color: #1b80a8;  
+  position: fixed; 
+  left: 471px; 
+  top: 458px; 
+  transform: scale(1.065); 
   border: 2px solid double;
-  border-radius: 100px/90px;
-  opacity: 0.0; /**/
+  border-radius: 100px/90px; 
+  opacity: 0.0; 
 }
 .rot:hover {
   opacity: 0.99; 
@@ -124,6 +124,10 @@ body {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  position: fixed;
+  left: 0px; 
+  top: 0px;
+
   justify-content: left;
   margin-top: 0px;
 }
